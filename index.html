@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mattesidan</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projekt: Webbhistoria</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/style.css">
 
-    <link type="text" rel="stylesheet" href="./style.css" />
-  </head>
+  </head>  
   <body>
-    <h1>
-      Välkomna till mattesidan!
-    </h1>
+   Skriv in p värdet: <input type="number" class="value" name="p" id="p" /> <br>
+   Skriv in q värdet: <input type="number" class="value" name="q" id="q" /> <br>
+   <button id="submit1" onclick="getValue()">Submit</button> 
+  <p id=pqsvar1></p>
+  <p id=pqsvar2></p>
+<br>
+<br>
+Skriv in a värdet: <input type="number" class="value" name="a1" id="a1" /> Skriv in a värdet: <input type="number" class="value" name="a2" id="a2" /> Skriv in b värdet: <input type="number" class="value" name="b2" id="b2" />  <br> 
+Skriv in b värdet: <input type="number" class="value" name="b1" id="b1" /> Skriv in c värdet: <input type="number" class="value" name="c1" id="c1" /> Skriv in c värdet: <input type="number" class="value" name="c2" id="c2" /> <br>
+<button id="submit2" onclick="readValue()">Submit</button> 
+<br><br>
+<p>Första kordinaten (<input type="number" class="value" name="x1" id="x1"/>,<input type="number" class="value" name="y1" id="y1"/>)</p>
+<p>Andra kordinaten (<input type="number" class="value" name="x2" id="x2"/>,<input type="number" class="value" name="y2" id="y2"/>)</p>
+<button id="submit3" onclick="summonValue()">Submit</button> 
   </body>
   <script src="./js/script.js"></script>
 </html>

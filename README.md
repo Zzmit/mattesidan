@@ -1,32 +1,25 @@
-# Mattesidan
+# projekt_webbhistoria
+ 
+Koden i projektet ska vara uppdelat i 4 olika delar
+* assets
+* documentation
+* js
+* view
 
-### Vad sidan ska göra
+Huvudsidan: ```index.html``` och sidans stylesheet: ```style.css``` ligger i huvudmappen. 
+## Assets
+Här ska olika media-filer ligga som: 
+* Bilder
+* Gif
+* Video
 
-Användaren ska kunna:
+## Documentation
+Här ska texter kring projektet ligga. Exempelvis: 
+* Beskrivning av ens målgrupp
+* Resultat av tester
 
-- Beräkna PQ-formeln
-- Beräkna Pythagoras sats
-- Beräkna en funktions k- och m-värde
+## js
+Här ska all JavaScript kod ligga. Det är dock inte nödvändigt i denna uppgift. 
 
-### Målet med sidan
-
-- Göra en hemsida med JavaScript som genomför olika typer av beräkningar
-- Att genomföra olika typer av test på sin kod.
-
-### Saker som behövs:
-
-[Node](https://nodejs.org/en/)
-
-Sedan när Node är installerat behöver ni installera de olika test-biblioteken:
-
-[Jest](https://jestjs.io/docs/en/getting-started)
-
-```
-npm install --save-dev jest
-```
-
-[Puppeteer](https://github.com/puppeteer/puppeteer#puppeteer)
-
-```
-npm install --save-dev puppeteer
-```
+## View
+Här ska alla HTML sidor ligga (förutom ```index.html```)
